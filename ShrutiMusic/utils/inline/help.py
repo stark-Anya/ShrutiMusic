@@ -45,20 +45,21 @@ def help_pannel_page1(_, START: Union[bool, int] = None):
             [
                 InlineKeyboardButton(text=_["H_B_5"], callback_data="help_callback hb5"),
                 InlineKeyboardButton(text=_["H_B_6"], callback_data="help_callback hb6"),
+            ],
+            [
                 InlineKeyboardButton(text=_["H_B_7"], callback_data="help_callback hb7"),
-            ],
-            [
                 InlineKeyboardButton(text=_["H_B_8"], callback_data="help_callback hb8"),
-                InlineKeyboardButton(text=_["H_B_9"], callback_data="help_callback hb9"),
-                InlineKeyboardButton(text=_["H_B_10"], callback_data="help_callback hb10"),
             ],
             [
-                InlineKeyboardButton(text="» ɴᴇxᴛ »", callback_data="help_page_4"),
+                InlineKeyboardButton(text=_["H_B_9"], callback_data="help_callback hb9"),
+            ],
+            [
+                InlineKeyboardButton(text="» ᴘʀᴇᴠ »", callback_data="help_page_4"),
                 InlineKeyboardButton(
                     text=_["BACK_BUTTON"] if START else _["CLOSE_BUTTON"],
                     callback_data="settingsback_helper" if START else "close",
                 ),
-                InlineKeyboardButton(text="« ᴘʀᴇᴠ «", callback_data="help_page_2"),
+                InlineKeyboardButton(text="« ɴᴇxᴛ «", callback_data="help_page_2"),
             ],
         ]
     )
@@ -68,21 +69,22 @@ def help_pannel_page2(_, START: Union[bool, int] = None):
         [
             [
                 InlineKeyboardButton(text=_["H_B_11"], callback_data="help_callback hb11"),
+                InlineKeyboardButton(text=_["H_B_10"], callback_data="help_callback hb10"),
+            ],
+            [
                 InlineKeyboardButton(text=_["H_B_12"], callback_data="help_callback hb12"),
-            ],
-            [
                 InlineKeyboardButton(text=_["H_B_13"], callback_data="help_callback hb13"),
-                InlineKeyboardButton(text=_["H_B_14"], callback_data="help_callback hb14"),
             ],
             [
+                InlineKeyboardButton(text=_["H_B_14"], callback_data="help_callback hb14"),
                 InlineKeyboardButton(text=_["H_B_15"], callback_data="help_callback hb15"),
-                InlineKeyboardButton(text=_["H_B_16"], callback_data="help_callback hb16"),
-                InlineKeyboardButton(text=_["H_B_17"], callback_data="help_callback hb17"),
             ],
             [
                 InlineKeyboardButton(text=_["H_B_18"], callback_data="help_callback hb18"),
-                InlineKeyboardButton(text=_["H_B_19"], callback_data="help_callback hb19"),
                 InlineKeyboardButton(text=_["H_B_20"], callback_data="help_callback hb20"),
+            ],
+            [
+                InlineKeyboardButton(text=_["H_B_19"], callback_data="help_callback hb19"),
             ],
             [
                 InlineKeyboardButton(text="« ᴘʀᴇᴠ «", callback_data="help_page_1"),
@@ -103,18 +105,19 @@ def help_pannel_page3(_, START: Union[bool, int] = None):
                 InlineKeyboardButton(text=_["H_B_22"], callback_data="help_callback hb22"),
             ],
             [
-                InlineKeyboardButton(text=_["H_B_23"], callback_data="help_callback hb23"),
+                InlineKeyboardButton(text=_["H_B_17"], callback_data="help_callback hb17"),
                 InlineKeyboardButton(text=_["H_B_24"], callback_data="help_callback hb24"),
             ],
             [
                 InlineKeyboardButton(text=_["H_B_25"], callback_data="help_callback hb25"),
                 InlineKeyboardButton(text=_["H_B_26"], callback_data="help_callback hb26"),
+            ],
+            [
                 InlineKeyboardButton(text=_["H_B_27"], callback_data="help_callback hb27"),
+                InlineKeyboardButton(text=_["H_B_30"], callback_data="help_callback hb30"),
             ],
             [
                 InlineKeyboardButton(text=_["H_B_28"], callback_data="help_callback hb28"),
-                InlineKeyboardButton(text=_["H_B_29"], callback_data="help_callback hb29"),
-                InlineKeyboardButton(text=_["H_B_30"], callback_data="help_callback hb30"),
             ],
             [
                 InlineKeyboardButton(text="« ᴘʀᴇᴠ «", callback_data="help_page_2"),
@@ -140,7 +143,7 @@ def help_pannel_page4(_, START: Union[bool, int] = None):
             ],
             [
                 InlineKeyboardButton(text=_["H_B_35"], callback_data="help_callback hb35"),
-                InlineKeyboardButton(text=_["H_B_37"], callback_data="help_callback hb37"),
+                InlineKeyboardButton(text=_["H_B_29"], callback_data="help_callback hb29"),
             ],
             [
                 InlineKeyboardButton(text=_["H_B_38"], callback_data="help_callback hb38"),
@@ -150,12 +153,12 @@ def help_pannel_page4(_, START: Union[bool, int] = None):
                 InlineKeyboardButton(text=_["H_B_36"], callback_data="help_callback hb36"),
             ],   
             [
-                InlineKeyboardButton(text="» ɴᴇxᴛ »", callback_data="help_page_3"),
+                InlineKeyboardButton(text="» ᴘʀᴇᴠ »", callback_data="help_page_3"),
                 InlineKeyboardButton(
                     text=_["BACK_BUTTON"] if START else _["CLOSE_BUTTON"],
                     callback_data="settingsback_helper" if START else "close",
                 ),
-                InlineKeyboardButton(text="« ᴘʀᴇᴠ «", callback_data="help_page_1"),
+                InlineKeyboardButton(text="« ɴᴇxᴛ «", callback_data="help_page_1"),
             ],
         ]
     )
