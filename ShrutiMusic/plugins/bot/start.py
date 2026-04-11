@@ -45,26 +45,26 @@ EMOJIS = ["❤️", "😁", "👀", "⚡️", "🕊", "❤️‍🔥", "💅", "
 
 # 20 image slots — apne links yahan replace karo
 START_IMAGES = [
-    "https://files.catbox.moe/k43ugw.jpg",   # 1
-    "https://files.catbox.moe/9soc53.jpg",   # 2
-    "https://files.catbox.moe/k8vvww.jpg",   # 3
-    "https://files.catbox.moe/bag4i1.jpg",   # 4
-    "https://files.catbox.moe/by685a.jpg",   # 5
-    "https://files.catbox.moe/f7xoqs.jpg",   # 6
-    "https://files.catbox.moe/5wqxf5.jpg",   # 7
-    "https://files.catbox.moe/431fr0.jpg",   # 8
-    "https://files.catbox.moe/ue0jdr.jpg",   # 9
-    "https://files.catbox.moe/w3ul6m.jpg",   # 10
-    "https://files.catbox.moe/tb5lbj.jpg",   # 11
-    "https://files.catbox.moe/gntxjn.jpg",   # 12
-    "https://files.catbox.moe/c6msne.jpg",   # 13
-    "https://files.catbox.moe/pivnj5.jpg",   # 14
-    "https://files.catbox.moe/zvl3zg.jpg",   # 15
-    "https://files.catbox.moe/geb29n.jpg",   # 16
-    "https://files.catbox.moe/59i2eq.jpg",   # 17
-    "https://files.catbox.moe/98frng.jpg",   # 18
-    "https://files.catbox.moe/cdsc73.jpg",   # 19
-    "https://files.catbox.moe/fhyuem.jpg",   # 20
+    "https://files.catbox.moe/dt3cul.jpg",   # 1
+    "https://d.uguu.se/swAfSjgB.jpg",        # 2
+    "https://d.uguu.se/fNYgGAqb.jpg",        # 3
+    "https://n.uguu.se/kkZyxTuu.jpg",        # 4
+    "https://h.uguu.se/kriwaMVV.jpg",        # 5
+    "https://h.uguu.se/FkBwoXiZ.jpg",        # 6
+    "https://h.uguu.se/OLlubfbz.jpg",        # 7
+    "https://n.uguu.se/RNkVNuNM.jpg",        # 8
+    "https://d.uguu.se/rYFrpERx.jpg",        # 9
+    "https://o.uguu.se/RddWBCJG.jpg",        # 10
+    "https://h.uguu.se/GTRaMdaT.jpg",        # 11
+    "https://o.uguu.se/zaUKLFlH.jpg",        # 12
+    "https://d.uguu.se/RfXMBmWH.jpg",        # 13
+    "https://d.uguu.se/GednJKaH.jpg",        # 14
+    "https://h.uguu.se/ziPuTJbg.jpg",        # 15
+    "https://d.uguu.se/aBOqAbxH.jpg",        # 16
+    "https://n.uguu.se/HMCkQVwJ.jpg",        # 17
+    "https://n.uguu.se/awGffrQp.jpg",        # 18
+    "https://n.uguu.se/hfLnzuMU.jpg",        # 19
+    "https://n.uguu.se/urlcGvnb.jpg",        # 
 ]
 
 # ─────────────────────────────────────────────
