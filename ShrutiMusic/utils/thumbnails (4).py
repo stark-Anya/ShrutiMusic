@@ -1,27 +1,3 @@
-# Copyright (c) 2025 Nand Yaduwanshi <NoxxOP>
-# Location: Supaul, Bihar
-#
-# All rights reserved.
-#
-# This code is the intellectual property of Nand Yaduwanshi.
-# You are not allowed to copy, modify, redistribute, or use this
-# code for commercial or personal projects without explicit permission.
-#
-# Allowed:
-# - Forking for personal learning
-# - Submitting improvements via pull requests
-#
-# Not Allowed:
-# - Claiming this code as your own
-# - Re-uploading without credit or permission
-# - Selling or using commercially
-#
-# Contact for permissions:
-# Email: badboy809075@gmail.com
-#
-# ATLEAST GIVE CREDITS IF YOU STEALING :
-# ELSE NO FURTHER PUBLIC THUMBNAIL UPDATES
-
 import os
 import re
 import aiofiles
@@ -66,7 +42,7 @@ ICONS_X = PANEL_X + (PANEL_W - ICONS_W) // 2
 ICONS_Y = BAR_Y + 54
 
 # ── Branding ──────────────────────────────────────────────────────────────────
-BRAND_TEXT      = "Kelly Music 🎶"
+BRAND_TEXT      = "Kelly Music "
 BRAND_FONT_SIZE = 32
 
 # ── Cache ─────────────────────────────────────────────────────────────────────
