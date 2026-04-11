@@ -19,8 +19,8 @@
 [![Owner](https://img.shields.io/badge/Owner-black?style=for-the-badge&logo=telegram)](https://t.me/carelessxowner)
 
 [![Forks](https://img.shields.io/github/forks/NoxxOP/ShrutiMusic?color=black&logo=github&logoColor=black&style=for-the-badge)](https://github.com/stark-Anya/KellyMusic/fork)
-[![Stars](https://img.shields.io/github/stars/stark-Anya/KellyMusic?color=black&logo=github&logoColor=black&style=for-the-badge)](https://github.com/NoxxOP/ShrutiMusic/stargazers)
-[![Contributors](https://img.shields.io/github/contributors/NoxxOP/ShrutiMusic?color=black&logo=github&logoColor=black&style=for-the-badge)](https://github.com/NoxxOP/ShrutiMusic/graphs/contributors)
+[![Stars](https://img.shields.io/github/stars/stark-Anya/KellyMusic?color=black&logo=github&logoColor=black&style=for-the-badge)](https://github.com/stark-Anya/KellyMusic)
+[![Contributors](https://img.shields.io/github/contributors/stark-Anya/KellyMusic1?color=black&logo=github&logoColor=black&style=for-the-badge)](https://github.com/stark-Anya/KellyMusic1/graphs/contributors)
 
 </div>
 
@@ -32,9 +32,9 @@
 
 | **𝐏𝐥𝐚𝐭𝐟𝐨𝐫𝐦** | **𝐃𝐞𝐩𝐥𝐨𝐲 𝐍𝐨𝐰** | **𝐈𝐧𝐟𝐨** |
 |:---:|:---:|:---:|
-| **𝐇𝐞𝐫𝐨𝐤𝐮** | [![Deploy](https://img.shields.io/badge/Deploy%20On%20Heroku-black?style=for-the-badge&logo=heroku)](https://dashboard.heroku.com/new?template=https://github.com/NoxxOP/ShrutiMusic) | 𝐎𝐧𝐞-𝐂𝐥𝐢𝐜𝐤 𝐃𝐞𝐩𝐥𝐨𝐲 |
-| **𝐑𝐞𝐧𝐝𝐞𝐫** | [![Deploy](https://img.shields.io/badge/Deploy%20On%20Render-black?style=for-the-badge&logo=render)](https://render.com/deploy?repo=https://github.com/NoxxOP/ShrutiMusic) | 𝟏𝟎𝟎% 𝐅𝐫𝐞𝐞 |
-| **𝐒𝐢𝐦𝐩𝐥𝐞 𝐁𝐨𝐭** | [![View](https://img.shields.io/badge/Simple%20Bot-black?style=for-the-badge&logo=github)](https://github.com/NoxxOP/ShrutixMusic) | 𝐋𝐢𝐠𝐡𝐭𝐰𝐞𝐢𝐠𝐡𝐭 |
+| **𝐇𝐞𝐫𝐨𝐤𝐮** | [![Deploy](https://img.shields.io/badge/Deploy%20On%20Heroku-black?style=for-the-badge&logo=heroku)](https://dashboard.heroku.com/new?template=https://https://github.com/stark-Anya/KellyMusic) | 𝐎𝐧𝐞-𝐂𝐥𝐢𝐜𝐤 𝐃𝐞𝐩𝐥𝐨𝐲 |
+| **𝐑𝐞𝐧𝐝𝐞𝐫** | [![Deploy](https://img.shields.io/badge/Deploy%20On%20Render-black?style=for-the-badge&logo=render)](https://render.com/deploy?repo=https://https://github.com/stark-Anya/KellyMusic) | 𝟏𝟎𝟎% 𝐅𝐫𝐞𝐞 |
+| **𝐒𝐢𝐦𝐩𝐥𝐞 𝐁𝐨𝐭** | [![View](https://img.shields.io/badge/Simple%20Bot-black?style=for-the-badge&logo=github)](https://stark-Anya/KellyMusic) | 𝐋𝐢𝐠𝐡𝐭𝐰𝐞𝐢𝐠𝐡𝐭 |
 
 </div>
 
@@ -111,7 +111,7 @@ sudo apt-get install -y nodejs
 ### **𝐒𝐭𝐞𝐩 𝟒: 𝐂𝐥𝐨𝐧𝐞 𝐑𝐞𝐩𝐨𝐬𝐢𝐭𝐨𝐫𝐲**
 
 ```bash
-git clone https://github.com/NoxxOP/ShrutiMusic
+git clone https://github.com/stark-Anya/KellyMusic
 ```
 
 ```bash
