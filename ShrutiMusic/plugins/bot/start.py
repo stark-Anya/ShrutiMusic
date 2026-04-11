@@ -80,11 +80,9 @@ async def _do_intro(client, message: Message):
     except Exception:
         pass
 
-    # 2. Show typing action
-    await client.send_chat_action(message.chat.id, ChatAction.TYPING
     # 4. Sticker → delete
     sticker_msg = await message.reply_sticker(sticker=random.choice(STICKERS))
-    await asyncio.sleep(0.6)
+    await asyncio.sleep(0.3)
     await sticker_msg.delete()
 
 
