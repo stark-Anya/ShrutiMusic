@@ -81,13 +81,7 @@ async def _do_intro(client, message: Message):
         pass
 
     # 2. Show typing action
-    await client.send_chat_action(message.chat.id, ChatAction.TYPING)
-
-    # 3. Temporary greeting message
-    hi_msg = await message.reply_text("**__𝐻𝑖𝑒𝑒 𝐶𝑢𝑡𝑖𝑒𝑒 __**")
-    await asyncio.sleep(0.6)
-    await hi_msg.delete()
-
+    await client.send_chat_action(message.chat.id, ChatAction.TYPING
     # 4. Sticker → delete
     sticker_msg = await message.reply_sticker(sticker=random.choice(STICKERS))
     await asyncio.sleep(0.6)
