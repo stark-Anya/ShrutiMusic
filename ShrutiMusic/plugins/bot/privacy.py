@@ -1,23 +1,3 @@
-# Copyright (c) 2025 Nand Yaduwanshi <NoxxOP>
-# Location: Supaul, Bihar
-#
-# All rights reserved.
-#
-# This code is the intellectual property of Nand Yaduwanshi.
-# You are not allowed to copy, modify, redistribute, or use this
-# code for commercial or personal projects without explicit permission.
-#
-# Allowed:
-# - Forking for personal learning
-# - Submitting improvements via pull requests
-#
-# Not Allowed:
-# - Claiming this code as your own
-# - Re-uploading without credit or permission
-# - Selling or using commercially
-#
-# Contact for permissions:
-# Email: badboy809075@gmail.com
 
 
 from pyrogram import Client, filters
@@ -31,7 +11,7 @@ TEXT = f"""
 
 Your privacy is important to us. To learn more about how we collect, use, and protect your data, please review our Privacy Policy here: [Privacy Policy]({config.PRIVACY_LINK}).
 
-If you have any questions or concerns, feel free to reach out to our [support team](https://t.me/ShrutiBotSupport).
+If you have any questions or concerns, feel free to reach out to our [support team](https://t.me/CarelessxWorld).
 """
 
 @app.on_message(filters.command("privacy"))
@@ -40,7 +20,7 @@ async def privacy(client, message: Message):
         [
             [
                 InlineKeyboardButton(
-                    "View Privacy Policy", url=config.SUPPORT_GROUP
+                    "View Privacy Policy", url="https://graph.org/Anya-Bots---Privacy-Policy-04-12"
                 )
             ]
         ]
