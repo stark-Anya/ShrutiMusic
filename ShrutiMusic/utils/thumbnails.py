@@ -17,7 +17,7 @@ PANEL_RADIUS     = 40
 PANEL_ALPHA      = 200
 
 # ── Song thumbnail inside panel (16:9 crop) ───────────────────────────────────
-THUMB_W, THUMB_H = 848, 477
+THUMB_W, THUMB_H = 768, 432
 THUMB_X          = PANEL_X + (PANEL_W - THUMB_W) // 2
 THUMB_Y          = PANEL_Y + 26
 THUMB_RADIUS     = 18
@@ -32,17 +32,17 @@ MAX_TITLE_WIDTH = PANEL_W - 72
 BAR_X         = PANEL_X + 36
 BAR_Y         = META_Y + 42
 BAR_TOTAL_LEN = PANEL_W - 72
-BAR_RED_RATIO = 0.0
+BAR_RED_RATIO = 0.6
 BAR_RED_LEN   = int(BAR_TOTAL_LEN * BAR_RED_RATIO)
 BAR_DOT_R     = 10
 
 # ── Icons row ─────────────────────────────────────────────────────────────────
-ICONS_W, ICONS_H = 450, 52
+ICONS_W, ICONS_H = 380, 44
 ICONS_X = PANEL_X + (PANEL_W - ICONS_W) // 2
-ICONS_Y = BAR_Y + 54
-
+ICONS_Y = BAR_Y + 36
+icons_path = "ShrutiMusic/assets/play_icons.png"
 # ── Branding ──────────────────────────────────────────────────────────────────
-BRAND_TEXT      = "Kelly Music "
+BRAND_TEXT      = "[ Kelly Music ]"
 BRAND_FONT_SIZE = 32
 
 # ── Cache ─────────────────────────────────────────────────────────────────────
