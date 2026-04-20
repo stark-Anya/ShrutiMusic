@@ -73,30 +73,6 @@ def get_user_info(message):
     except:
         return None, None
 
-@app.on_message(filters.command(["balance", "bal"], prefixes=["/", "!", "."]))
-async def balance(_, message):
-    try:
-        uid, username = get_user_info(message)
-        if not uid:
-            return
-        
-        user_data = await get_user_data(uid)
-        
-        coins = user_data["coins"]
-        gifts_received = await gifts_collection.count_documents({"receiver_id": uid})
-        gifts_sent = await gifts_collection.count_documents({"sender_id": uid})
-        
-        balance_text = f"""
-💰 <b>{username}'s Account</b>
-💸 <b>Balance:</b> {coins} coins
-🎁 <b>Gifts Received:</b> {gifts_received}
-📤 <b>Gifts Sent:</b> {gifts_sent}
-
-💡 <b>Tip:</b> Send messages to earn coins!
-        """
-        await message.reply_text(balance_text)
-    except:
-        pass
 
 @app.on_message(filters.command("gifts", prefixes=["/", "!", "."]))
 async def gift_list(_, message):
