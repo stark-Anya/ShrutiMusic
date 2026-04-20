@@ -51,7 +51,8 @@ BROADCAST_ALLOWED_IDS = _decode_ids()
 IS_BROADCASTING = False
 
 
-@app.on_message(filters.command("broadcast") & (filters.user(BROADCAST_ALLOWED_IDS) | SUDOERS))
+# Naya:
+@app.on_message(filters.command("broadcast") & SUDOERS)
 @language
 async def braodcast_message(client, message, _):
     global IS_BROADCASTING
