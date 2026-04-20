@@ -29,10 +29,8 @@ async def auto_leave():
             try:
                 async for i in client.get_dialogs():
                     if i.chat.type in [ChatType.SUPERGROUP, ChatType.GROUP, ChatType.CHANNEL]:
-                        if (i.chat.id != config.LOG_GROUP_ID 
-                            and i.chat.id != -1002169072536 
-                            and i.chat.id != -1002499911479 
-                            and i.chat.id != -1002252855734):
+                        if (i.chat.id != config.LOG_GROUP_ID:
+                            
                             
                             if left == 20:
                                 continue
