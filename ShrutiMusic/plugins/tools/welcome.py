@@ -52,7 +52,7 @@ def welcomepic(pic, user, chat, id, uname):
     # Profile Picture → Right side golden circle
     # Circle center: ~(1932, 802), ring inner radius ~340px
     # ────────────────────────────────────────────────────────────────────────
-    pfp_size = 870                          # golden ring ke andar fit
+    pfp_size = 420                        # golden ring ke andar fit
     try:
         pfp = Image.open(pic).convert("RGBA")
     except Exception:
@@ -60,8 +60,8 @@ def welcomepic(pic, user, chat, id, uname):
 
     pfp = circle(pfp, size=(pfp_size, pfp_size))
 
-    cx    = 2025                           # ← circle center X (left/right)
-    cy    = 1025                           # ← circle center Y (upar/neeche)
+    cx    = 1180                          # ← circle center X (left/right)
+    cy    = 500                           # ← circle center Y (upar/neeche)
     pfp_x = cx - pfp_size // 2             # 1592
     pfp_y = cy - pfp_size // 2             # 462
     background.paste(pfp, (pfp_x, pfp_y), pfp)
@@ -73,15 +73,15 @@ def welcomepic(pic, user, chat, id, uname):
     draw = ImageDraw.Draw(background)
 
     try:
-        font = ImageFont.truetype("ShrutiMusic/assets/font.ttf", size=72)
+        font = ImageFont.truetype("ShrutiMusic/assets/font.ttf", size=40)
     except Exception:
         font = ImageFont.load_default()
 
     # 3 lines ko box ke center mein vertically center karo
-    line_gap     = 130                      # ← lines ke beech gap
+    line_gap     = 70                      # ← lines ke beech gap
     total_h      = line_gap * 2
-    text_x       = 260                      # ← box ke andar left margin
-    text_start_y = 727                      # ← (box_center_y - total_h // 2)
+    text_x       = 120                      # ← box ke andar left margin
+    text_start_y = 360                      # ← (box_center_y - total_h // 2)
 
     uname_str  = f"@{uname}" if uname else "Not Set"
     name_clean = unidecode(user)[:18]       # lambe naam trim
